@@ -38,6 +38,4 @@ python3 td_sm_t1.py
 - Python 3.10+
 - pygame 2.6.1
 
-## License
 
-MIT
