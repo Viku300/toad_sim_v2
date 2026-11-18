@@ -30,7 +30,7 @@ cd toad_sim_v2
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-python3 td_sm_t1.py
+python3 td_sm_t4.py
 ```
 
 ## Requirements
