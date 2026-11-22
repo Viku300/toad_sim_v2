@@ -1,6 +1,6 @@
 # Toad Sim v2
 
-A top-down pond survival sim built with Python and pygame. Start as a tadpole, eat your way through the pond, evolve into a froglet, then a toad, and escape once you've maxed out both health and hunger.
+A top-down pond survival sim built with Python and pygame. Start as a tadpole, eat your way through the pond, evolve into a froglet, then a toad, and escape through a pond exit once you've maxed out both health and hunger.
 
 ## Gameplay
 
@@ -10,7 +10,8 @@ A top-down pond survival sim built with Python and pygame. Start as a tadpole, e
 - Dirty water chips away at your health over time
 - Froglets can boost for a burst of speed
 - Froglets and toads can eat grasshoppers with a tongue attack
-- Win by reaching full health and full hunger as a toad
+- As a toad, fill both your health and hunger bars to unlock the pond exits
+- Win by swimming to any pond exit (marked on `pond_exit.png`) — the toad has successfully exited the pond
 
 ## Controls
 
@@ -29,13 +30,12 @@ git clone https://github.com/<your-username>/toad_sim_v2.git
 cd toad_sim_v2
 python3 -m venv .venv
 source .venv/bin/activate
+pip install --upgrade pip
 pip install -r requirements.txt
-python3 td_sm_t4.py
+python3 final_v3.py
 ```
 
 ## Requirements
 
 - Python 3.10+
 - pygame 2.6.1
-
-
