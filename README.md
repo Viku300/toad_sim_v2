@@ -17,7 +17,7 @@ A top-down pond survival sim built with Python and pygame. Start as a tadpole, e
 
 | Key | Action |
 |---|---|
-| W A S D | Move |
+| W A S D / Arrow keys | Move |
 | E | Eat (tongue attack, froglet/toad only) |
 | SPACE | Boost (froglet only) |
 | R | Restart |
@@ -32,7 +32,7 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip install --upgrade pip
 pip install -r requirements.txt
-python3 final_v3.py
+python3 final_v4.py
 ```
 
 ## Requirements
