@@ -26,7 +26,7 @@ A top-down pond survival sim built with Python and pygame. Start as a tadpole, e
 ## Running it
 
 ```bash
-git clone https://github.com/<your-username>/toad_sim_v2.git
+git clone git@github.com:Viku300/toad_sim_v2.git
 cd toad_sim_v2
 python3 -m venv .venv
 source .venv/bin/activate
